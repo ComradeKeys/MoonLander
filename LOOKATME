@@ -1,0 +1,3 @@
+Performance would be way better if the ground were a
+scaled cube so we are only calling functions on cubes
+that create the landscape and the main floor.
