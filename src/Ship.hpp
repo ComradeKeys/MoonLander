@@ -32,7 +32,7 @@
 class Ship : public Vector3d {
 
  public:
-  Ship();
+  Ship(void);
   void draw(std::vector <bool> controls);
 
  private:

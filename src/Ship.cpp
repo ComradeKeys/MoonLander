@@ -73,7 +73,7 @@ void Ship::animate(std::vector <bool> controls) {
  * 
  * NOTES :   
  *F*/
-Ship::Ship() {
+Ship::Ship(void) {
   x = 10;
   y = 5;
   z = 0;

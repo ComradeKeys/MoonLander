@@ -113,7 +113,7 @@ void Ground::update(std::vector <bool> controls) {
  *F*/
 Ground::Ground() {
 
-  dim = 50;
+  dim = 25;
   platform = new Platform(rand() % dim, rand () % dim);
 
   for(int i =  -(dim/2); i < (dim/2); ++i) {
